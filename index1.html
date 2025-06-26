@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Bản Thân</title>
+    <style>
+        body {
+            background-color: #F6F0F0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 20px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-color: #FFD0D0;
+            border-radius: 100%;
+            padding: 5px;
+            border-style: double;
+        }
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        h1 {
+            color: #A87676;
+            font-size: 40px;
+        }
+        p {
+            font-size: 20px;
+            color: #CA8787;
+        }
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                gap: 50px;
+            }
+            .info {
+                align-items: flex-start;
+                text-align: left;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://picsum.photos/seed/picsum/200/300" alt="Profile Picture">
+        <div class="info">
+            <h1>Giới Thiệu Bản Thân</h1>
+            <p>Lê Mỹ Cẩm Tiên</p>
+            <p>Tôi là sinh viên năm 3, học chuyên ngành Thương mại điện tử tại trường Đại học Công nghiệp Tp.HCM</p>
+            <p>Tôi có sở thích trồng cây, nghe nhạc và lướt mạng xã hội</p>
+        </div>
+    </div>
+</body>
+</html>
