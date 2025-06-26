@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách môn học</title>
+    <style>
+        body {
+            background-color: #F7F5EB;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #5a3003;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; 
+            gap: 20px;
+            padding: 10px;
+        }
+        .card {
+            background-color: #FEFAE0;
+            border: 2px solid #A6D6D6;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+
+        }
+        .card:hover {
+            background-color: #ffb74d;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Danh sách các môn học yêu thích</h1>
+    <div class="grid-container">
+        <div class="card">Hệ Thống Và Công Nghệ Web</div>
+        <div class="card">Tiếng Anh 1</div>
+        <div class="card">Marketing Số</div>
+        <div class="card">Ý Tưởng Khởi Nghiệp</div>
+        <div class="card">Kỹ Năng Giao Tiếp</div>
+        <div class="card">Lập Trình Python</div>
+    </div>
+</body>
+</html>
